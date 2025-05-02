@@ -1,0 +1,73 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js build output
+.next/
+out/
+
+# production
+dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sw?
+
+# coverage/testing
+coverage/
+*.lcov
+
+# TypeScript cache
+*.tsbuildinfo
+
+# MacOS metadata
+.AppleDouble
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Parcel cache
+.cache/
+
+# SvelteKit
+.svelte-kit/
+
+# turbo repo stuff
+turbo/
+
+# vercel deployment output
+.vercel/output/
+
+# local backup or temp files
+*.bak
+*.tmp
+*~
+
+# GitHub codespaces
+.devcontainer/
+
+# Static export of Next.js
+export/
