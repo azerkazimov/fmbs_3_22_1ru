@@ -1,0 +1,16 @@
+{
+    "Home": {
+        "title": "Our Pizza is the Best!",
+        "description": "Welcome to our pizza shop!"
+    },
+    "about": {
+        "title": "About us",
+        "description": "This is the about page",
+        "buttons": {
+            "home": "Go to home page",
+            "contact": "Contact us"
+        }
+    }
+
+
+}

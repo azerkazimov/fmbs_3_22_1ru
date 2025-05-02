@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
-import { formRegisterSchema } from "@/app/(withoutnav)/auth/schema";
+import { formRegisterSchema } from "@/app/[locale]/(withoutnav)/auth/schema";
 import { prisma } from "../../../../prisma/prisma-client";
 
 export async function GET() {

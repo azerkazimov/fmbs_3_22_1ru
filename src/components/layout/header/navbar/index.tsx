@@ -1,7 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/messages/lib/utils";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -15,6 +15,7 @@ import Profile from "@/components/shared/profile";
 import Sidebar from "@/components/shared/sidebar";
 import { NavbarProps } from "@/types/interfaces/navbar-props";
 import SearchDialog from "@/components/shared/search-dialog";
+import LanguageSwitcher from "@/components/shared/language-switcher";
 // import { components } from "@/data/navbar/navbar";
 
 export default async function Navbar() {
@@ -91,6 +92,7 @@ export default async function Navbar() {
 
         <div className="flex gap-2">
           <SearchDialog/>
+          <LanguageSwitcher/>
           <Sidebar />
           <Profile />
         </div>
