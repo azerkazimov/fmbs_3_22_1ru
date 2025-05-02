@@ -6,7 +6,7 @@ export default function About() {
       <div>About</div>
       <div className="flex gap-2 ">
         <button className="bg-white text-black p-2 border rounded-xl">
-          <Link href="/">Main page</Link>
+          <Link href="/">Home page</Link>
         </button>
         <button className="bg-white text-black p-2 border rounded-xl">
           <Link href="/contacs">Contacs</Link>
