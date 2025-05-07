@@ -1,7 +1,11 @@
 {
     "Home": {
         "title": "Our Pizza is the Best!",
-        "description": "Welcome to our pizza shop!"
+        "description": "Welcome to our pizza shop!",
+        "video": {
+            "title": "Discover Our Pizza Journey",
+            "description": "Watch how we craft the perfect pizza!"
+        }
     },
     "about": {
         "title": "About us",

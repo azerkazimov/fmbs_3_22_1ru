@@ -24,8 +24,8 @@ export default async function Navbar() {
   const components = await response.json();
 
   return (
-    <div className="container mx-12">
-      <div className="flex justify-between items-center py-4">
+    <div className="container w-full">
+      <div className="flex justify-between items-center py-4 w-full">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>

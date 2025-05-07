@@ -25,12 +25,16 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{locale: string}>;
 }>) {
   const session = await getServerSession(authOptions);
+  const {locale} = await params;
+    
   return (
-    <html lang="en" className="dark" suppressHydrationWarning={false}>
+    <html lang={locale} className="dark" suppressHydrationWarning={false}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
